@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divs-Juntos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#div-Fondo {
+    width: 660px;
+    height: 350px;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+#div-Principal{
+    flex-direction: column;
+    width: 610px;
+    height: 300px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+
+#div-Info {
+    flex-direction: column;
+}
+
+#generar-Color {
+    margin-right: 10px;
+    width: 65px;
+    height: 15px;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+
+#generar-Color:hover{
+    background-color: black;
+    color: white;
+}

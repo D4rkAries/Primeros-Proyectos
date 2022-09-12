@@ -1,0 +1,61 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+body {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+section {
+    background-color: #e0e0e0;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divs-principales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div-Principal {
+    background-color: #e0e0e0;
+    width: 30%;
+    height: 320px;
+    border-radius: 32px;
+    background: #e0e0e0;
+    box-shadow: 7px 7px 14px #828282, -7px -7px 14px #ffffff;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+h2{
+    font-size: 40px;
+}
+#div-Number{ 
+    height: 64px;
+    width: 150px;
+    font-size: 50px;
+    cursor: none;
+}
+
+#all-Buttons{
+    padding: 20px;
+}
+.control-Buttons {
+    margin-right: 10px;
+    width: 120px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px #aaaaaa, -5px -5px 11px #ffffff;
+}
+
+.control-Buttons:hover{
+    background-color: darkblue;
+    color: white;
+}
